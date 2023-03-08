@@ -1,0 +1,19 @@
+// глобальные стили
+@import "src/styles/_styles/variables";
+@import "src/styles/_styles/general";
+
+//локальные стили
+@import "src/components/header/header";
+@import "src/components/header/RightItems/RightItem";
+@import "src/components/banner/banner";
+@import "src/components/advantages/advanatages";
+@import "src/components/catalog/catalog";
+@import "src/components/advantages/advanatages2";
+@import "src/components/video/video";
+@import "src/components/calculation/calculation";
+@import "src/components/calculation/checkbox";
+@import "src/components/partners/partners";
+@import "src/components/reviews/reviews";
+@import "src/components/map/map";
+@import "src/components/footer/footer";
+@import "src/components/modal/modal";
