@@ -1,4 +1,4 @@
-import logo from "../../assets/fooLogo.svg";
+import logo from "../../assets/fooLogo.png";
 import phone from "../../assets/phone.svg";
 import mapMarker from "../../assets/map-marker.svg";
 

@@ -1,38 +1,39 @@
 import img1 from "../../assets/2802966240624.svg";
-import img2 from "../../assets/truck.svg";
-import img3 from "../../assets/rub.svg";
-import img4 from "../../assets/like.svg";
+import img2 from "../../assets/rub.svg";
+import img3 from "../../assets/like.svg";
+import img4 from "../../assets/truck.svg";
 
 import Advantage from "./advantage/Advantage";
 
-export default function Advanatages2() {
+export default function Advanatages() {
   return (
-    <div className="advantages__body advantages2">
-      <h2 className="heading advantages__heading">Почему мы?</h2>
+    <div className="advantages__body">
+      <h2 className="heading advantages__heading">Преимущества футбольного мяча</h2>
       <div className="advantages__container">
         <Advantage
           img={img1}
           heading="Собственное производство"
-          description="Мы изготавливаем элементы краб-системы на собственном производстве в Вологде, уделяя особое внимание качеству."
+          description="Мы изготавливаем все элементы мяча на собственном производстве в Москве, уделяя особое внимание качеству"
         />
 
         <Advantage
           img={img2}
-          heading="Доставка по всей России"
-          description="Мы осуществляем доставку нашей продукции по всей России."
+          heading="Низкая стоимость"
+          description={
+            "Несмотря на свою низкую стоимость, этот мяч не уступают в качестве и долговечности другим более дорогим моделям"
+          }
         />
 
         <Advantage
           img={img3}
-          heading="Доступные цены"
-          description="Так как мы являемся производителем, мы 
-                предлагаем нашу продукцию без лишних наценок."
+          heading="Большая популярность у спортсменов"
+          description="Многие спортивные клубы и школы закупают наши мячи"
         />
 
         <Advantage
           img={img4}
-          heading="Гарантия качества"
-          description="Мы уделяем особое внимание качеству нашей продукции и дорожим нашими клиентами."
+          heading="Доставка по всей России"
+          description="Мы осуществляем доставку нашей продукции по всей России."
         />
       </div>
     </div>

@@ -19,7 +19,7 @@ export default function RightItem ({}) {
               className="r_item_anchor_city r_item_anchor"
               onClick={() => setOpenModal(true)}
             >
-              Все города
+             ㅤ
             </span>
           </div>
         </div>

@@ -24,19 +24,9 @@
   cursor: pointer;
 }
 
-.partner1 {
-  width: 249.1px;
-}
 
 .partner2 {
-  width: 269.1px;
-}
-
-.partner3 {
-  width: 209.1px;
-
-  position: relative;
-  margin-top: 5px;
+  height: 150px !important;
 }
 
 @media (min-width: $partnersAdaptiveWidth) {
